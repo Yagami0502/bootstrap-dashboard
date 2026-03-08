@@ -14,9 +14,9 @@ A Codex skill for starting, rebuilding, restarting, and health-checking a dashbo
 3. Start a new Codex session so the skill can be discovered.
 
 ## Files
-- `SKILL.md` ? the skill itself
-- `agents/openai.yaml` ? UI metadata for skill lists
+- `SKILL.md` - the skill itself
+- `agents/openai.yaml` - UI metadata for skill lists
 
 ## Example prompt
-- ???????????? dashboard ?????
-- ????? WSL ?? dashboard ???
+- Start the dashboard service and confirm the local endpoints are healthy.
+- Rebuild and relaunch the WSL dashboard after frontend changes.
