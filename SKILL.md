@@ -10,8 +10,8 @@ Start the loop and dashboard deliberately. First inspect what is already running
 
 ## Quick Reference
 - Check loop state from `.auto-loop-state` before restarting anything.
-- Rebuild frontend after UI changes with `cd dashboard/frontend && npm run build`.
-- Start the dashboard from WSL repo root with `nohup python3 dashboard/server.py --host 127.0.0.1 --port 8787 > logs/dashboard-server.log 2>&1 &`.
+- Rebuild the frontend after UI changes with `cd dashboard/frontend && npm run build`.
+- Start the dashboard from the WSL repo root with `nohup python3 dashboard/server.py --host 127.0.0.1 --port 8787 > logs/dashboard-server.log 2>&1 &`.
 - Verify `GET /`, `GET /api/status`, and `GET /api/settings` all return `200`.
 - Report the engine and model from the live status payload, not from assumptions.
 
@@ -30,4 +30,4 @@ Start the loop and dashboard deliberately. First inspect what is already running
 - Using the wrong host, port, or working directory.
 
 ## Example
-Use when the user says: ?????????, ?dashboard ?????, or ???? WSL ??????????.
+Use when the user says: "Start the project and dashboard", "the dashboard is down", or "relaunch the WSL dashboard service".
